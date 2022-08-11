@@ -1,0 +1,32 @@
+.hero {
+    background: $color-primary; 
+    color: #fff;
+    padding: 7rem 0;
+ 
+
+    & .container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__box {
+        width: 40%; 
+    }
+
+    &__heading {
+        font-weight: 700;
+        font-size: 3.8rem;
+        margin-bottom: 3.5rem;
+        line-height: 1.4;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        margin-bottom: 3.4rem;
+
+    }
+
+    &__img {
+        width: 60%;
+    }
+}
